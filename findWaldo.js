@@ -10,3 +10,8 @@ function checkIfFound(name, j, names) {
 }
 
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], checkIfFound);
+
+////ANONYMUS FUNCTION, INLINE FORMATTING
+// findWaldo(["Alice", "Bob", "Waldo", "Winston"], function(result) {
+//   console.log("The result is:", result);
+// });
